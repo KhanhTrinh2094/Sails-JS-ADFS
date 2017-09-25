@@ -27,9 +27,8 @@ module.exports = {
     'saml', 
     { failureRedirect: '/', failureFlash: true }), 
     function (req, res) {
-      console.log(req.user);
       if (!req.user) {
-          throw Error("User not authenticated.");
+        throw Error("User not authenticated.");
       }
       res.redirect("/");
     }
