@@ -1,3 +1,3 @@
-# Sails-JS-ADFS
+# SailsJS + ADFS
 
 a [Sails](http://sailsjs.org) application
